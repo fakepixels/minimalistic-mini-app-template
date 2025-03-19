@@ -15,6 +15,7 @@ import Card from './components/Card';
 import Button from './components/Button';
 import Icon from './components/Icon';
 import TodoList from './components/TodoList';
+import TransactionCard from './components/TransactionCard';
 
 export default function App() {
   const { setFrameReady, isFrameReady, context } = useMiniKit();
@@ -82,6 +83,8 @@ export default function App() {
             </Card>
             
             <TodoList />
+            
+            <TransactionCard />
           </div>
         );
       
