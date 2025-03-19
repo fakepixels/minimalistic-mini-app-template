@@ -20,7 +20,7 @@ export default function TransactionCard() {
     <Card title="Make Your First Transaction">
       <div className="space-y-4">
         <p className="text-gray-300 mb-4">
-          Experience the power of onchain transactions with OnchainKit. Send a test transaction to see how it works.
+          Experience the power of seamless sponsored transactions with <a href="https://onchainkit.xyz" target="_blank" rel="noopener noreferrer" className="text-[#0052FF] hover:underline">OnchainKit</a>.
         </p>
         
         <div className="flex flex-col items-center">
