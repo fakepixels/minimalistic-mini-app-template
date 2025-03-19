@@ -1,4 +1,4 @@
-# My First Mini App
+# Minimalistic App by MiniKit
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`npx create-onchain@alpha --mini`](https://docs.base.org/builderkits/minikit/getting-started) that demonstrates the capabilities of MiniKit from OnchainKit.
 
