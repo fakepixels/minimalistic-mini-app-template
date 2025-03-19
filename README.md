@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`npx create-o
 
 ![Mini App Demo](public/Mini-App.gif)
 
-## About MiniKit
+## About [MiniKit](https://www.base.org/builders/minikit)
 
 MiniKit is a powerful toolkit by OnchainKit that enables developers to build onchain mini apps compatible with the [Frames v2](https://docs.farcaster.xyz/developers/frames/v2/getting-started) standard.. It provides a set of React components and hooks for building decentralized applications on Base.
 
