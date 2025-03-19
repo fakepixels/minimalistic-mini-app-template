@@ -14,6 +14,7 @@ import { useAccount, useConnect } from 'wagmi';
 import Card from './components/Card';
 import Button from './components/Button';
 import Icon from './components/Icon';
+import TodoList from './components/TodoList';
 
 export default function App() {
   const { setFrameReady, isFrameReady, context } = useMiniKit();
@@ -80,24 +81,7 @@ export default function App() {
               </Button>
             </Card>
             
-            <Card>
-              <div className="flex flex-col items-center text-center">
-                <div className="w-16 h-16 bg-[#0052FF]/10 rounded-full flex items-center justify-center mb-4">
-                  <Icon name="star" size="lg" className="text-[#0052FF]" />
-                </div>
-                <h3 className="text-lg font-medium mb-2 text-white">Built on Base</h3>
-                <p className="text-gray-300 text-sm mb-4">
-                  Powered by Base and OnchainKit for a seamless onchain experience.
-                </p>
-                <Button 
-                  variant="outline" 
-                  size="sm"
-                  onClick={() => openUrl('https://base.org/builders/minikit')}
-                >
-                  Learn More
-                </Button>
-              </div>
-            </Card>
+            <TodoList />
           </div>
         );
       
